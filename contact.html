@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="VIEWPORT"
+        content="width=advice-width, initial-scale=1,0"/>
+        <title> Dimcad Shop </title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="header"> 
+         
+            <a href="#"><img src="images/logo/cajaib.png" class="logo"alt=""></a> 
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="shop.html"> Shop </a></li>  
+                    <li><a href="blog.html"> Blog </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a class="active" href="contact.html"> Contact </a></li>
+                    <li id="lg-bag"><a href="cart.html"> <i class="far fa-shopping-bag"></i> </a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"> <i class="far fa-shopping-cart"></i> </a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#let's_talk</h2>
+            <p>Leave A Message, we love to hear from you!</p>
+        </section>
+
+        <section id="form-details" class="section-p1 section-m1">
+            <div class="container1">
+                <form class="form" id="login">
+                    <h1 class="form__title">Login</h1>
+                    <div class="form__message form__message--error"></div>
+                    <div class="form__input-group">
+                        <input type="text" id="user" class="form__input" autofocus placeholder="Username or email">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" id="logpassword" class="form__input" autofocus placeholder="Password">
+                        <div class="form__input-error-message"></div>
+                    </div>
+                    <button class="form__button" type="submit">Login</button>
+                    <p class="form__text">
+                        <a href="#" class="form__link">Forgot your password?</a>
+                    </p>
+                    <p class="form__text">
+                        <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
+                    </p>
+                </form>
+                <form class="form form--hidden" id="createAccount">
+                    <h1 class="form__title">Create Account</h1>
+                    <div class="form__message form__message--error"></div>
+                    <div class="form__input-group">
+                        <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
+                        <div class="form__input-error-message"></div>
+                        
+                    </div>
+                    <div class="form__input-group">
+                        <input type="text" id="email" class="form__input" autofocus placeholder="Email Address">
+                        <div class="form__input-error-message"></div>
+                       
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" id="password" class="form__input" autofocus placeholder="Password">
+                        <div class="form__input-error-message"></div>
+                        
+                    </div>
+                    <div class="form__input-group">
+                        <input type="password" id="password2" class="form__input" autofocus placeholder="Confirm password">
+                        <div class="form__input-error-message"></div>
+                        
+                    </div>
+                    <button id="sign" class="form__button" type="submit">SignUp</button>
+                    <p class="form__text">
+                        <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+
+            <section id="newslatter" class="section-p1 section-m1">
+                <div class="newstext">
+                    <h4>Sign Up For Newslatters</h4>
+                    <p>GET E-mail Updates about our latest shop and <span>special offers</span></p>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Your Email Address">
+                    <button class="normal">Sign Up</button>
+                </div>
+            </section>
+   
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo1" src="images/logo/cajaib.png"  alt="">
+                <h4>contact</h4>
+                <p><strong>Address: </strong>Somalia, Muqdisha, Dherkinlay</p>
+                <p><strong>Phone: </strong>+252 617 811 442 /(+254) 74 84 35 42</p>
+                <p><strong>Hours: </strong>6:ooam:12:00pm - 7;00pm:5:00pm, sat-thru</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">Track my ordered</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                 <img src="images/pay/app.jpg" alt="">
+                 <img src="images/pay/play.jpg" alt="">
+                </div>
+                <div>
+                    <p>Secured payment Gatways </p>
+                    <img src="images/pay/pay.png" alt="">
+                </div>
+            </div>
+            <div class="copyright">
+                <p>@ 2022, Dimcad Shop - All Copyright Reserved</p>
+            </div>
+        </footer>
+
+            <script src="script.js">
+            </script>
+    </body>
+</html>
